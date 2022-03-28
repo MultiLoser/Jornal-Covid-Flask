@@ -1,0 +1,1 @@
+# Jornal-Covid-Flask
