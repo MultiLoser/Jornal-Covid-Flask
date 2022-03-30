@@ -32,4 +32,11 @@ class Estado:
     def get_id(self):
         return self.__id
     
-    def get_nome
+    def get_nome(self):
+        return self.__nome
+    
+    def get_sigla(self):
+        return self.__sigla
+    
+    def get_bandeira(self):
+        return self.__bandeira
