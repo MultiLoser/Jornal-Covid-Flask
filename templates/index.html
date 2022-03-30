@@ -12,11 +12,21 @@
 </head>
 
 <body>
-    <nav class="d-flex nav bg-danger justify-content-around mb-5" >
-        <a class="nav-link text-white mt-1" href="#"><img src="https://findicons.com/files/icons/2315/default_icon/256/watch.png" alt="" width="35"></a>
-        <a href="index.html"><img src="https://image.flaticon.com/icons/png/512/21/21601.png" width="55"  alt="" class="navbar-brand"></a>
-        <a class="nav-link text-white mt-1" href="#" ><img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png" alt="" width="35"></a>
-    </nav>
+  <nav class="d-flex nav bg-danger justify-content-around mb-5" >
+    <a class="nav-link text-white mt-1" href="{{url_for('home')}}"><img src="https://www.camdencounty.com/wp-content/uploads/2020/03/covid-icon.png" alt="" width="35"></a>
+    <div class="dropdown mt-2"><a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Estados
+    </a>
+    <ul class='dropdown-menu'>
+      <li><a class="dropdown-item">acv</a></li>
+      <li><a class="dropdown-item">acv</a></li>
+      <li><a class="dropdown-item">acv</a></li>
+      <li><a class="dropdown-item">acv</a></li>
+      <li><a class="dropdown-item">acv</a></li>
+      <li><a class="dropdown-item">acv</a></li>
+
+    </ul></div>
+</nav>
     <div id="carouselExampleIndicators" class="carousel slide d-flex w-50 mx-auto pt-3 " data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
